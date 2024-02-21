@@ -1,0 +1,35 @@
+.header {
+  height: 7vh;
+  width: 100%;
+  background-color: #242424;
+  padding: 0 3vw;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 2.7rem;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-item {
+  display: inline;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.nav-item:hover {
+  background-color: #424242;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
